@@ -10,13 +10,13 @@
 
 ### It's time!
 
-You are going to build a web-application _from scratch_. This project is **due 2:30pm on Tuesday, June 18th** -  **That due date _can not be adjusted_.**
+You are going to build a web-application _from scratch_. This project is **due 2:30pm on Wednesday, June 19th** -  **That due date _can not be adjusted_.**
 
 ### _Suggested_ Timeline
 
 | Pick Game / App | Draft GUI / Console IO | Code! | Test & Fix | Submit _by_|
 |:----:|:----:|:----:|:----:|:----:|
-|By Fri June 14th| June 14-17 | June 17-18 | June 17-18 |Tues June 18th @ 2:30pm |
+|By Fri June 14th| June 14-17 | June 17-18 | June 17-19 |Wed June 19th @ 2:30pm |
 
 ### Step 1: Proposal Pick a Game or App
 Decide what you'd like to build. Subit your proposal in Google Classroom
@@ -111,35 +111,6 @@ Overall marks will be determined based on term work, including the Independent S
 |**Instructions for the user (how to play)**| Do not assume that your user knows how to play the game! Just because _you've_ played Hangman before, does not mean that the person on your site has. Provide a method of learning the rules of the game. Decsription of the rules **must** be clear. |
 |**Game / site must be functional**| The submitted game/site needs to be functional. **A submission that throws errors on the console and doesn't play, has buttons that do nothing, or the basic requirements of the game are not implemented is considered _incomplete_.**
 |**Usage must be obvious or properly described**| What does this button do? How do I quit? Wait, I have to type it in and then right-click that small picture? That's weird...<br>Your game or site must have a user-friendly layout that provides a clear set of usability. Note that this is different from _instructions_ or being _functional_, as described above. |
-
-<hr>
-
-### Using Mr. Brash's Hangman Database
-If you plan on doing Hangman and you would like to use an already created list of movies or team names, here is how you could do that:
-
-In your **HTML** file, place the following inside the `<head>` section:
-```HTML
-<script src="https://misterbrash.github.io/Hangman_DB/hangman_helper.js" defer></script>
-```
-
-Now to get a secret title, in your JavaScript code you would call the function `getTitle()` like this:
-```JS
-let title = getTitle(0);
-```
-The parameter is the type of title (category):
-
-0. [Movie](https://misterbrash.github.io/Hangman_DB/Lists/AA_Movies.txt)
-1. [Disney Movie](https://misterbrash.github.io/Hangman_DB/Lists/Disney_Movies.txt)
-2. [MLB Team](https://misterbrash.github.io/Hangman_DB/Lists/MLB_Teams.txt)
-3. [NHL Team](https://misterbrash.github.io/Hangman_DB/Lists/NHL_Teams.txt)
-4. [NBA Team](https://misterbrash.github.io/Hangman_DB/Lists/NBA_Teams.txt)
-5. [NFL Team](https://misterbrash.github.io/Hangman_DB/Lists/NFL_Teams.txt)
-6. [5 Letter Words](https://misterbrash.github.io/Hangman_DB/Lists/5_Letter_Words.txt)
-7. [Beautiful Words](https://misterbrash.github.io/Hangman_DB/Lists/Beautiful_Words.txt)
-8. [NBA Players](https://misterbrash.github.io/Hangman_DB/Lists/NBA_Players.txt)
-9. [Spanish 5-Letter Words](https://misterbrash.github.io/Hangman_DB/Lists/Spanish.txt)
-
-If you would like a new category or entry added, contact Mr. Brash.
 
 <hr>
 
